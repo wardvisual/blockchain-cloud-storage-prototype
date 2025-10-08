@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fabric artifacts
+wallet/
+connection-*.json
+*.block
+*.tx
+
+# MinIO data
+minio-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Test outputs
+test-results/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build outputs
+dist/
+build/
+
+# ==================================================
+# PRIVATE DOCUMENTATION - 
+# ==================================================
+
+# Detailed setup and evaluation plans
+# SETUP.md
+# CHECKLIST.md
+# QUICK_REFERENCE.md
+
+# Original specification with full  scope
+hyperledger_fabric_min_io_prototype_readme.md
+
+docs/evaluation-plan.md
+docs/*.md
+
+notes/
+GITHUB_STRATEGY.md
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+.env

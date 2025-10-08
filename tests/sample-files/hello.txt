@@ -1,0 +1,4 @@
+Hello, World!
+This is a sample file for testing the Hyperledger Fabric + MinIO prototype.
+The system will compute the SHA-256 hash of this file and store it on the blockchain.
+Any tampering with this file will be detected during verification.

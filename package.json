@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "setup": "cd backend && bun install && cd ../chaincode/hash-chaincode && bun install",
+    "start": "cd backend && bun start",
+    "test": "bash tests/api-test.sh",
+    "benchmark": "bash backend/scripts/benchmark.sh",
+    "tamper-test": "bash tests/tamper-test.sh"
+  }
+}

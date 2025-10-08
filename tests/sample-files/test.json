@@ -1,0 +1,30 @@
+{
+  "name": "Test File",
+  "description": "This is a sample JSON file for testing",
+  "version": "1.0.0",
+  "metadata": {
+    "author": "Prototype Tester",
+    "created": "2025-10-07",
+    "purpose": "Testing blockchain-based storage system"
+  },
+  "content": {
+    "test": true,
+    "items": [
+      {
+        "id": 1,
+        "name": "Item 1",
+        "value": "Value 1"
+      },
+      {
+        "id": 2,
+        "name": "Item 2",
+        "value": "Value 2"
+      },
+      {
+        "id": 3,
+        "name": "Item 3",
+        "value": "Value 3"
+      }
+    ]
+  }
+}
